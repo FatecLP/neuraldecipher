@@ -90,3 +90,6 @@ for (let epoca = 0; epoca < epocasTreinamento; epoca++) {
         console.log('Valor de b:', b.dataSync()[0]);
     }
 }
+
+// tenta prever a nota de um aluno que estudou 3.5 horas
+prever(3.5).print();  // deve estar perto de 9
