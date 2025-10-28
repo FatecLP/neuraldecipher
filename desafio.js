@@ -2,7 +2,7 @@ const { criptografar } = require('./cripto');
 const { obterParametros, normalizar, desnormalizar } = require('./normalizar');
 const tf = require('@tensorflow/tfjs');
 
-// cenário: queremos achar a chave usada para criptografar as mensagens
+// cenário: queremos decifrar uma mensagem cifrada
 
 const textoPuro = '"Descubra." - JEFF, Big';
 const asciiPuro = textoPuro.split('').map(char => char.charCodeAt(0));
